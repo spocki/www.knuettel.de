@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <head>
-  <title>www.knuettel.de</title>
+    <title>www.knuettel.de</title>
 </head>
 <body>
 
 <style>
-   body {
-     margin: 0px;
-   }
+    body {
+        margin: 0px;
+    }
+    html {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
 </style>
 
+<script src="./js/jquery.js"></script>
 <script src="./js/d3.js"></script>
 <script src="./js/d3.layout.cloud.js"></script>
+<script src="./js/d3.link.cloud.js"></script>
 
-<script src="./js/init.js"></script>
-<script src="./js/links.js"></script>
-<script src="./js/index.js"></script>
+<script src="./links.js"></script>
 
+<script>
+    $(document).ready(function () {
+        renderLinkCloud(links);
+    })
+</script>
 </body>
