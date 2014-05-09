@@ -1,6 +1,8 @@
 var LAYOUT = 1;
 var DATABASE = 2;
 var JAVA = 3;
+var JAVASCRIPT = 4;
+var IDE = 5;
 
 var types = ["NONE", "LAYOUT", "DATABASE", "JAVA"];
 

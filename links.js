@@ -2,9 +2,9 @@ var links = [
     { text: "devoops", link: "http://devoops.me", type: LAYOUT },
     { text: "java", link: "http://www.java.com/de/", type: JAVA },
     { text: "airplay", link: "http://apiary.io/", type: JAVA },
-    { text: "d3", link: "http://d3js.org/", type: JAVA },
-    { text: "d3", link: "http://bost.ocks.org/mike/", type: JAVA },
-    { text: "raphael", link: "http://raphaeljs.com/", type: JAVA },
+    { text: "d3", link: "http://d3js.org/", type: JAVASCRIPT },
+    { text: "d3", link: "http://bost.ocks.org/mike/", type: JAVASCRIPT },
+    { text: "raphael", link: "http://raphaeljs.com/", type: JAVASCRIPT },
     { text: "RESTeasy", link: "http://docs.jboss.org/resteasy/2.0.0.GA/userguide/html/", type: JAVA },
     { text: "logstash", link: "http://logstash.net/", type: LAYOUT },
     { text: "kibana", link: "http://www.elasticsearch.org/overview/kibana/", type: LAYOUT },
@@ -26,12 +26,12 @@ var links = [
 
     { text: "github", link: "http://github.com", type: LAYOUT },
 
-    { text: "nodejs", link: "http://nodejs.org/", type: DATABASE },
-    { text: "express", link: "http://expressjs.com/", type: DATABASE },
+    { text: "nodejs", link: "http://nodejs.org/", type: JAVASCRIPT },
+    { text: "express", link: "http://expressjs.com/", type: JAVASCRIPT },
     { text: "sass", link: "http://sass-lang.com/", type: DATABASE },
     { text: "less", link: "http://lesscss.org/", type: DATABASE },
     { text: "bootstrap", link: "http://getbootstrap.com/", type: DATABASE },
-    { text: "coffee script", link: "http://coffeescript.org/", type: DATABASE },
+    { text: "coffee script", link: "http://coffeescript.org/", type: JAVASCRIPT },
     { text: "jade", link: "http://jade-lang.com/", type: DATABASE },
     { text: "ruby", link: "https://www.ruby-lang.org/de/", type: DATABASE },
 
@@ -44,16 +44,16 @@ var links = [
     { text: "jboss", link: "http://jbossas.jboss.org/", type: DATABASE },
 
 
-    { text: "bower", link: "http://bower.io/", type: DATABASE },
-    { text: "npm", link: "https://www.npmjs.org/", type: DATABASE },
+    { text: "bower", link: "http://bower.io/", type: JAVASCRIPT },
+    { text: "npm", link: "https://www.npmjs.org/", type: JAVASCRIPT },
     { text: "angular", link: "https://angularjs.org/", type: DATABASE },
-    { text: "qUnit", link: "http://qunitjs.com/", type: DATABASE },
+    { text: "qUnit", link: "http://qunitjs.com/", type: JAVASCRIPT },
     { text: "jUnit", link: "http://junit.org/", type: DATABASE },
-    { text: "jasmine", link: "http://jasmine.github.io/", type: DATABASE },
+    { text: "jasmine", link: "http://jasmine.github.io/", type: JAVASCRIPT },
     { text: "forge", link: "https://code.google.com/p/mockito/", type: DATABASE },
     { text: "mockito", link: "http://easymock.org/", type: DATABASE },
     { text: "commons", link: "http://commons.apache.org/", type: DATABASE },
-    { text: "datejs", link: "http://www.datejs.com/", type: DATABASE },
+    { text: "datejs", link: "http://www.datejs.com/", type: JAVASCRIPT },
     { text: "joda", link: "http://www.joda.org/", type: DATABASE },
     { text: "leaflet", link: "http://leafletjs.com/", type: DATABASE },
 
@@ -62,12 +62,12 @@ var links = [
     { text: "jenkins", link: "http://jenkins-ci.org/", type: DATABASE },
     { text: "travis", link: "https://travis-ci.org/", type: DATABASE },
     { text: "nexus", link: "http://www.sonatype.org/nexus/", type: DATABASE },
-    { text: "eclipse", link: "http://www.eclipse.org/", type: DATABASE },
-    { text: "webstorm", link: "http://www.jetbrains.com/webstorm/", type: DATABASE },
+    { text: "eclipse", link: "http://www.eclipse.org/", type: IDE },
+    { text: "webstorm", link: "http://www.jetbrains.com/webstorm/", type: IDE },
     { text: "oauth", link: "http://oauth.net/", type: DATABASE },
-    { text: "jquery", link: "http://jquery.com/", type: DATABASE },
+    { text: "jquery", link: "http://jquery.com/", type: JAVASCRIPT },
 
-    { text: "Atom", link: "https://atom.io/", type: DATABASE },
+    { text: "Atom", link: "https://atom.io/", type: IDE },
 
     { text: "Sonar", link: "http://www.sonarqube.org/", type: DATABASE },
     { text: "solr", link: "http://lucene.apache.org/solr/", type: DATABASE },
@@ -79,11 +79,29 @@ var links = [
     { text: "openFaces", link: "http://openfaces.org/", type: DATABASE },
     { text: "GWT", link: "http://www.gwtproject.org/", type: DATABASE },
 
+
+    { text: "slf4j", link: "http://www.slf4j.org/", type: DATABASE },
+    { text: "ejb3", link: "http://ejb3.jboss.org/", type: DATABASE },
+    { text: "ubuntu", link: "http://www.ubuntu.com/", type: DATABASE },
+    { text: "centos", link: "http://www.centos.org/", type: DATABASE },
+    { text: "drools", link: "http://drools.jboss.org/", type: DATABASE },
+    { text: "errai", link: "http://erraiframework.org/", type: DATABASE },
+    { text: "hibernate", link: "http://hibernate.org/orm/", type: DATABASE },
+    { text: "weld", link: "http://weld.cdi-spec.org/", type: DATABASE },
+    { text: "felis", link: "http://felix.apache.org/", type: DATABASE },
+    { text: "ongl", link: "http://commons.apache.org/proper/commons-ognl/", type: DATABASE },
+    { text: "directory", link: "http://directory.apache.org/studio/", type: DATABASE },
+    { text: "jxls", link: "http://jxls.sourceforge.net/", type: DATABASE },
+    { text: "poi", link: "http://poi.apache.org/", type: DATABASE },
+    { text: "yeoman", link: "http://yeoman.io/", type: JAVASCRIPT },
+    { text: "grunt", link: "http://gruntjs.com/", type: JAVASCRIPT },
+
     { text: "mongodb", link: "http://mongodb.org", type: DATABASE },
     { text: "dailyjs", link: "http://dailyjs.com", type: DATABASE }
 ];
 
 
 /*
+
 
  */

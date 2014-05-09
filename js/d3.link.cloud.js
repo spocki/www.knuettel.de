@@ -1,12 +1,14 @@
 var LAYOUT = 1;
 var DATABASE = 2;
 var JAVA = 3;
+var JAVASCRIPT = 4;
+var IDE = 5;
 
 var renderLinkCloud = function (links) {
 
     var fill = d3.scale.category20();
 
-    var bodyHeight = window.innerHeight;
+    var bodyHeight = window.innerHeight - 60;
     var bodyWidth = window.innerWidth;
 
     d3.layout.cloud().size([bodyWidth, bodyHeight])
@@ -23,7 +25,7 @@ var renderLinkCloud = function (links) {
         .start();
 
     function draw(words) {
-        d3.select("body").append("svg")
+        d3.select("#content").append("svg")
             .attr("width", bodyWidth)
             .attr("height", bodyHeight)
             .append("g")
