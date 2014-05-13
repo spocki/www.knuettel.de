@@ -96,6 +96,18 @@ var links = [
     { text: "yeoman", link: "http://yeoman.io/", type: JAVASCRIPT },
     { text: "grunt", link: "http://gruntjs.com/", type: JAVASCRIPT },
 
+
+    { text: "Dart", link: "https://www.dartlang.org/", type: JAVASCRIPT },
+    { text: "RasperryPI", link: "http://www.raspberrypi.org/", type: JAVASCRIPT },
+    { text: "Arduino", link: "http://www.arduino.cc/", type: JAVASCRIPT },
+    { text: "paypal", link: "https://developer.paypal.com/docs/", type: JAVASCRIPT },
+    { text: "meteor", link: "https://www.meteor.com/", type: JAVASCRIPT },
+    { text: "skycons", link: "http://darkskyapp.github.io/skycons/", type: JAVASCRIPT },
+    { text: "climacons", link: "http://adamwhitcroft.com/climacons/", type: JAVASCRIPT },
+    { text: "karma", link: "http://karma-runner.github.io/", type: JAVASCRIPT },
+    { text: "galleria", link: "http://galleria.io/", type: JAVASCRIPT },
+    { text: "webRTC", link: "http://www.webrtc.org/", type: JAVASCRIPT },
+
     { text: "mongodb", link: "http://mongodb.org", type: DATABASE },
     { text: "dailyjs", link: "http://dailyjs.com", type: DATABASE }
 ];
